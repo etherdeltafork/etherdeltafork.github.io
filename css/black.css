@@ -1,7 +1,7 @@
 @import 'https://fonts.googleapis.com/css?family=Open+Sans:400,700';
 
-
-html,body {
+html,
+body {
   margin: 0;
   padding: 0;
   width: 100%;
@@ -9,7 +9,9 @@ html,body {
   overflow-x: auto;
   overflow-y: hidden;
   font-family: 'Open Sans', sans-serif;
-  background: #ffffff;
+  font-size: 13px;
+  background: #1E2B34;
+  color: #ced2d5;
 }
 
 body {
@@ -69,7 +71,6 @@ a.navbar-brand {
   padding: 0;
   display:table;
   width: 100%;
-  margin-top: -20px;
   box-sizing: border-box;
   font-size: 90%;
 }
@@ -96,24 +97,25 @@ a.navbar-brand {
   display: table-cell;
   float: none;
 }
-
 .row .no-float:not(:last-child) {
-  border-right: 1px solid #666;
+	border-right: 2px solid #18252E;
 }
 
 .row-header {
   width: 100%;
-  background: #ccc;
-  color: #000;
-  text-transform: uppercase;
-  font-size: 16px;
   padding: 8px;
   height: 38px;
+  background: #2f3d45;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: #fff;
+  border-bottom: 2px solid #18252E;
 }
 
 .row-box {
   height: auto;
-  color: #000;
+  color: #fff;
   overflow-y: none;
 }
 
@@ -140,14 +142,19 @@ a.navbar-brand {
 }
 .row-box.table-header {
   height: 35px;
-  border-bottom: 1px solid #666;
+  border-bottom: 1px solid #15232c;
   padding-top: 5px;
 }
 tr.table-header {
   height: 25px;
-  border-bottom: 1px solid #666;
+  border-bottom: 1px solid #666666;
   vertical-align:bottom;
 }
+
+.table-header {
+  border-bottom: 2px solid #18252E;
+}
+
 tr.mid-header {
   border-top: 1px solid #666;
   border-bottom: 1px solid #666;
@@ -164,7 +171,7 @@ tr.mid-header {
 }
 tr.clickable-row:hover {
   cursor: pointer;
-  background: #111;
+  background: #1B2831;
 }
 
 .sell {
@@ -180,7 +187,7 @@ tr.clickable-row:hover {
 
 .row-box.nav-header {
   height: 35px;
-  border-bottom: 1px solid #666;
+  border-bottom: 1px solid #15232c;
 }
 
 .nav-tabs > li > a {
@@ -200,24 +207,30 @@ tr.clickable-row:hover {
   border-bottom: 0;
 }
 .nav-tabs.columns > li > a {
+  transition: background-color .25s ease-in-out;
   border-radius: 0;
   height: 35px;
   line-height: 17px;
   width: 100%;
   text-align: center;
-  background: #ccc;
-  color: #000;
+  background: #2f3d45;
+  color: #fff;
   border: 0;
 }
 .nav-tabs.columns > li.active > a {
-  color: #000;
-  background: #999;
+  color: #fff;
+  background: #15232c;
   border: 0;
 }
 .nav-tabs.columns > li > a:hover {
-  color: #000;
-  background: #666;
+  color: #FFF;
+  background: #33424a;
   border: 0;
+}
+
+.nav-tabs.columns > li.active > a:hover {
+  background: #15232c;
+  color: #fff;
 }
 
 .input-xs {
@@ -233,10 +246,10 @@ tr.clickable-row:hover {
 }
 
 a {
-  color: #003;
+  color: #ccc;
 }
 a:hover {
-  color: #336;
+  color: #666;
   text-decoration: none;
 }
 
