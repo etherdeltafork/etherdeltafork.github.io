@@ -98,7 +98,7 @@ a.navbar-brand {
   float: none;
 }
 .row .no-float:not(:last-child) {
-	border-right: 2px solid #18252E;
+	border-right: 2px solid #120119;
 }
 
 .row-header {
@@ -110,7 +110,7 @@ a.navbar-brand {
   font-weight: bold;
   text-transform: capitalize;
   color: #fff;
-  border-bottom: 2px solid #18252E;
+  border-bottom: 2px solid #120119;
 }
 
 .row-box {
@@ -152,7 +152,7 @@ tr.table-header {
 }
 
 .table-header {
-  border-bottom: 2px solid #18252E;
+  border-bottom: 2px solid #120119;
 }
 
 tr.mid-header {
@@ -690,7 +690,7 @@ fieldset[disabled] .form-control {
 .modal-header {
   color: #ced2d5;
   background: #120119;
-  border-bottom: 2px solid #18252E;
+  border-bottom: 2px solid #120119;
 }
 
 .alertify .ajs-header .fa,
@@ -702,7 +702,7 @@ fieldset[disabled] .form-control {
 .modal-footer {
   color: #ced2d5;
   background: #120119;
-  border-top: 2px solid #18252E;
+  border-top: 2px solid #120119;
 }
 
 .alertify .ajs-footer .ajs-buttons.ajs-auxiliary .ajs-button,
