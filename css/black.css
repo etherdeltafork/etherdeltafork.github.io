@@ -38,7 +38,7 @@ body::-webkit-scrollbar,
 
 body::-webkit-scrollbar-track,
 .scroll::-webkit-scrollbar-track {
-	background: #15232c;
+	background: #230031;
 }
 
 body::-webkit-scrollbar-thumb,
@@ -105,7 +105,7 @@ a.navbar-brand {
   width: 100%;
   padding: 8px;
   height: 38px;
-  background: #2f3d45;
+  background: #320046;
   font-size: 16px;
   font-weight: bold;
   text-transform: capitalize;
@@ -142,7 +142,7 @@ a.navbar-brand {
 }
 .row-box.table-header {
   height: 35px;
-  border-bottom: 1px solid #15232c;
+  border-bottom: 1px solid #230031;
   padding-top: 5px;
 }
 tr.table-header {
@@ -187,7 +187,7 @@ tr.clickable-row:hover {
 
 .row-box.nav-header {
   height: 35px;
-  border-bottom: 1px solid #15232c;
+  border-bottom: 1px solid #230031;
 }
 
 .nav-tabs > li > a {
@@ -213,13 +213,13 @@ tr.clickable-row:hover {
   line-height: 17px;
   width: 100%;
   text-align: center;
-  background: #2f3d45;
+  background: #320046;
   color: #fff;
   border: 0;
 }
 .nav-tabs.columns > li.active > a {
   color: #fff;
-  background: #15232c;
+  background: #230031;
   border: 0;
 }
 .nav-tabs.columns > li > a:hover {
@@ -229,7 +229,7 @@ tr.clickable-row:hover {
 }
 
 .nav-tabs.columns > li.active > a:hover {
-  background: #15232c;
+  background: #230031;
   color: #fff;
 }
 
@@ -471,7 +471,7 @@ pre code {
 
 #bs-example-navbar-collapse-1 .navbar-nav a {
   font-weight: bold;
-  color: #15232c;
+  color: #230031;
   font-size: 12px;
 }
 
@@ -480,7 +480,7 @@ pre code {
 }
 
 .badge {
-  background-color: #2f3d45;
+  background-color: #320046;
 }
 
 .label-success {
@@ -625,12 +625,12 @@ fieldset[disabled] .form-control {
 }
 
 #bs-example-navbar-collapse-1 .navbar-nav #tokensDropdown .dropdown-menu a span.symbol {
-  color: #15232c;
+  color: #230031;
   font-weight: bold;
 }
 
 #bs-example-navbar-collapse-1 .navbar-nav #tokensDropdown .dropdown-menu a.other {
-  color: #15232c;
+  color: #230031;
   font-weight: bold;
 }
 
