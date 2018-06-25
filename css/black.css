@@ -10,7 +10,7 @@ body {
   overflow-y: hidden;
   font-family: 'Open Sans', sans-serif;
   font-size: 13px;
-  background: #1E2B34;
+  background: #120119;
   color: #ced2d5;
 }
 
@@ -393,7 +393,7 @@ pre code {
 
 #chartPrice {
   overflow: hidden;
-  background: #1E2B34 !important;
+  background: #120119 !important;
 }
 
 #chartPrice [fill="#cccccc"] {
@@ -406,7 +406,7 @@ pre code {
 
 #chartDepth {
   overflow: hidden;
-  background: #1E2B34 !important;
+  background: #120119 !important;
 }
 
 #chartDepth [fill="#cccccc"] {
@@ -510,7 +510,7 @@ fieldset[disabled] .form-control {
 .form-control[readonly],
 fieldset[disabled] .form-control {
   color: #fff;
-  background-color: #1E2B34;
+  background-color: #120119;
   opacity: 0.6;
 }
 
@@ -671,7 +671,7 @@ fieldset[disabled] .form-control {
 .modal-body,
 .modal-content {
   color: #ced2d5;
-  background: #1E2B34;
+  background: #120119;
 }
 
 .alertify .ajs-body .ajs-content a,
@@ -689,7 +689,7 @@ fieldset[disabled] .form-control {
 .alertify .ajs-header,
 .modal-header {
   color: #ced2d5;
-  background: #1E2B34;
+  background: #120119;
   border-bottom: 2px solid #18252E;
 }
 
@@ -701,7 +701,7 @@ fieldset[disabled] .form-control {
 .alertify .ajs-footer,
 .modal-footer {
   color: #ced2d5;
-  background: #1E2B34;
+  background: #120119;
   border-top: 2px solid #18252E;
 }
 
@@ -751,4 +751,3 @@ fieldset[disabled] .form-control {
 		height: 400px;
 	}
 }
-
