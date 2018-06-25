@@ -9,9 +9,7 @@ body {
   overflow-x: auto;
   overflow-y: hidden;
   font-family: 'Open Sans', sans-serif;
-  font-size: 13px;
-  background: #1E2B34;
-  color: #ced2d5;
+  background: #ffffff;
 }
 
 body {
@@ -71,6 +69,7 @@ a.navbar-brand {
   padding: 0;
   display:table;
   width: 100%;
+  margin-top: -20px;
   box-sizing: border-box;
   font-size: 90%;
 }
@@ -98,24 +97,22 @@ a.navbar-brand {
   float: none;
 }
 .row .no-float:not(:last-child) {
-	border-right: 2px solid #18252E;
+  border-right: 1px solid #666;
 }
 
 .row-header {
   width: 100%;
+  background: #ccc;
+  color: #000;
+  text-transform: uppercase;
+  font-size: 16px;
   padding: 8px;
   height: 38px;
-  background: #2f3d45;
-  font-size: 16px;
-  font-weight: bold;
-  text-transform: capitalize;
-  color: #fff;
-  border-bottom: 2px solid #18252E;
 }
 
 .row-box {
   height: auto;
-  color: #fff;
+  color: #000;
   overflow-y: none;
 }
 
@@ -142,19 +139,14 @@ a.navbar-brand {
 }
 .row-box.table-header {
   height: 35px;
-  border-bottom: 1px solid #15232c;
+  border-bottom: 1px solid #666;
   padding-top: 5px;
 }
 tr.table-header {
   height: 25px;
-  border-bottom: 1px solid #666666;
+  border-bottom: 1px solid #666;
   vertical-align:bottom;
 }
-
-.table-header {
-  border-bottom: 2px solid #18252E;
-}
-
 tr.mid-header {
   border-top: 1px solid #666;
   border-bottom: 1px solid #666;
@@ -171,7 +163,7 @@ tr.mid-header {
 }
 tr.clickable-row:hover {
   cursor: pointer;
-  background: #1B2831;
+  background: #111;
 }
 
 .sell {
@@ -187,7 +179,7 @@ tr.clickable-row:hover {
 
 .row-box.nav-header {
   height: 35px;
-  border-bottom: 1px solid #15232c;
+  border-bottom: 1px solid #666;
 }
 
 .nav-tabs > li > a {
@@ -207,30 +199,24 @@ tr.clickable-row:hover {
   border-bottom: 0;
 }
 .nav-tabs.columns > li > a {
-  transition: background-color .25s ease-in-out;
   border-radius: 0;
   height: 35px;
   line-height: 17px;
   width: 100%;
   text-align: center;
-  background: #2f3d45;
-  color: #fff;
+  background: #ccc;
+  color: #000;
   border: 0;
 }
 .nav-tabs.columns > li.active > a {
-  color: #fff;
-  background: #15232c;
+  color: #000;
+  background: #999;
   border: 0;
 }
 .nav-tabs.columns > li > a:hover {
-  color: #FFF;
-  background: #33424a;
+  color: #000;
+  background: #666;
   border: 0;
-}
-
-.nav-tabs.columns > li.active > a:hover {
-  background: #15232c;
-  color: #fff;
 }
 
 .input-xs {
@@ -246,10 +232,10 @@ tr.clickable-row:hover {
 }
 
 a {
-  color: #ccc;
+  color: #003;
 }
 a:hover {
-  color: #666;
+  color: #336;
   text-decoration: none;
 }
 
@@ -334,25 +320,6 @@ pre code {
   overflow-y: auto;
 }
 
-.dropdown-menu::-webkit-scrollbar {
-  width: 5px;
-  height: 5px;
-}
-
-.dropdown-menu::-webkit-scrollbar-track {
-  background: #fff;
-}
-
-.dropdown-menu::-webkit-scrollbar-thumb {
-  background-color: #ccc;
-  border: 1px solid #ccc;
-  transition: all 0.2s ease-out;
-}
-
-.dropdown-menu::-webkit-scrollbar-thumb:hover {
-  background-color: #aaa;
-}
-
 .chat-button {
   background: #fc3;
   color: #000;
@@ -393,28 +360,10 @@ pre code {
 
 #chartPrice {
   overflow: hidden;
-  background: #1E2B34 !important;
-}
-
-#chartPrice [fill="#cccccc"] {
-  fill: #cccccc;
-}
-
-#chartPrice [fill="#ff0000"] {
-  fill: #ff6939;
 }
 
 #chartDepth {
   overflow: hidden;
-  background: #1E2B34 !important;
-}
-
-#chartDepth [fill="#cccccc"] {
-  fill: #4da53c;
-}
-
-#chartDepth [fill="#ff0000"] {
-  fill: #ff6939;
 }
 
 .big-icon {
@@ -426,6 +375,7 @@ pre code {
 }
 
 .ad {
+  background: #fff;
   text-align: center;
 }
 /**/
@@ -433,6 +383,7 @@ pre code {
   width: 600px;
   margin-left: -16px;
 }
+
 
 .ttip {
   position: relative;
